@@ -13,3 +13,9 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# リクエスト
+# curl --request GET \
+#                      --url https://eifvcd.deta.dev/ \
+#                      --header 'Content-Type: application/json' \
+#                      --header 'X-API-Key:ここにapikey'
